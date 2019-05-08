@@ -1,0 +1,462 @@
+{
+  "version" : "v2",
+  "resultSummary" : {
+    "testStarted" : 1557167737805,
+    "testEnded" : 1557167910068,
+    "totalHits" : 1139,
+    "totalErrors" : 34,
+    "maxVUsers" : 5,
+    "durationInSeconds" : 172
+  },
+  "scriptName" : "my-first-test",
+  "properties" : { },
+  "samplerSummaries" : {
+    "Failed_Requests_Summary.csv" : {
+      "name" : "Failed_Requests_Summary.csv",
+      "header" : [ {
+        "key" : "sampler_label",
+        "name" : "Label",
+        "index" : 0
+      }, {
+        "key" : "aggregate_report_count",
+        "name" : "#Samples",
+        "index" : 1
+      }, {
+        "key" : "average",
+        "name" : "Average [ms]",
+        "index" : 2
+      }, {
+        "key" : "aggregate_report_median",
+        "name" : "Median [ms]",
+        "index" : 3
+      }, {
+        "key" : "aggregate_report_90%_line",
+        "name" : "90% line [ms]",
+        "index" : 4
+      }, {
+        "key" : "aggregate_report_95%_line",
+        "name" : "95% line [ms]",
+        "index" : 5
+      }, {
+        "key" : "aggregate_report_99%_line",
+        "name" : "99% line [ms]",
+        "index" : 6
+      }, {
+        "key" : "aggregate_report_min",
+        "name" : "Minimum [ms]",
+        "index" : 7
+      }, {
+        "key" : "aggregate_report_max",
+        "name" : "Maximum [ms]",
+        "index" : 8
+      }, {
+        "key" : "aggregate_report_error%",
+        "name" : "Error Rate",
+        "index" : 9
+      }, {
+        "key" : "aggregate_report_rate",
+        "name" : "Rate / sec",
+        "index" : 10
+      }, {
+        "key" : "aggregate_report_bandwidth",
+        "name" : "Avg. Bandwidth [KB/s]",
+        "index" : 11
+      }, {
+        "key" : "aggregate_report_stddev",
+        "name" : "Std. Deviation",
+        "index" : 12
+      } ],
+      "data" : [ {
+        "label" : "006_H?c li?u",
+        "metrics" : {
+          "average" : 7305.0,
+          "aggregate_report_max" : 13753.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 12860.0,
+          "aggregate_report_99%_line" : 13753.0,
+          "aggregate_report_stddev" : 2665.68,
+          "aggregate_report_90%_line" : 10877.0,
+          "aggregate_report_error%" : 1.0,
+          "aggregate_report_min" : 4398.0,
+          "aggregate_report_bandwidth" : 14.5,
+          "aggregate_report_median" : 6895.0,
+          "aggregate_report_count" : 17.0
+        }
+      } ],
+      "total" : {
+        "label" : "TOTAL",
+        "metrics" : {
+          "average" : 7305.0,
+          "aggregate_report_max" : 13753.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 12860.0,
+          "aggregate_report_99%_line" : 13753.0,
+          "aggregate_report_stddev" : 2665.68,
+          "aggregate_report_90%_line" : 10877.0,
+          "aggregate_report_error%" : 1.0,
+          "aggregate_report_min" : 4398.0,
+          "aggregate_report_bandwidth" : 14.5,
+          "aggregate_report_median" : 6895.0,
+          "aggregate_report_count" : 17.0
+        }
+      }
+    },
+    "Successful_Requests_Summary.csv" : {
+      "name" : "Successful_Requests_Summary.csv",
+      "header" : [ {
+        "key" : "sampler_label",
+        "name" : "Label",
+        "index" : 0
+      }, {
+        "key" : "aggregate_report_count",
+        "name" : "#Samples",
+        "index" : 1
+      }, {
+        "key" : "average",
+        "name" : "Average [ms]",
+        "index" : 2
+      }, {
+        "key" : "aggregate_report_median",
+        "name" : "Median [ms]",
+        "index" : 3
+      }, {
+        "key" : "aggregate_report_90%_line",
+        "name" : "90% line [ms]",
+        "index" : 4
+      }, {
+        "key" : "aggregate_report_95%_line",
+        "name" : "95% line [ms]",
+        "index" : 5
+      }, {
+        "key" : "aggregate_report_99%_line",
+        "name" : "99% line [ms]",
+        "index" : 6
+      }, {
+        "key" : "aggregate_report_min",
+        "name" : "Minimum [ms]",
+        "index" : 7
+      }, {
+        "key" : "aggregate_report_max",
+        "name" : "Maximum [ms]",
+        "index" : 8
+      }, {
+        "key" : "aggregate_report_error%",
+        "name" : "Error Rate",
+        "index" : 9
+      }, {
+        "key" : "aggregate_report_rate",
+        "name" : "Rate / sec",
+        "index" : 10
+      }, {
+        "key" : "aggregate_report_bandwidth",
+        "name" : "Avg. Bandwidth [KB/s]",
+        "index" : 11
+      }, {
+        "key" : "aggregate_report_stddev",
+        "name" : "Std. Deviation",
+        "index" : 12
+      } ],
+      "data" : [ {
+        "label" : "001_H?c li?u",
+        "metrics" : {
+          "average" : 7534.0,
+          "aggregate_report_max" : 12640.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 12637.0,
+          "aggregate_report_99%_line" : 12640.0,
+          "aggregate_report_stddev" : 2859.91,
+          "aggregate_report_90%_line" : 10313.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 3153.0,
+          "aggregate_report_bandwidth" : 91.3,
+          "aggregate_report_median" : 8150.0,
+          "aggregate_report_count" : 17.0
+        }
+      }, {
+        "label" : "002_??ng nh?p | Sách M?m",
+        "metrics" : {
+          "average" : 1901.0,
+          "aggregate_report_max" : 3682.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 3102.0,
+          "aggregate_report_99%_line" : 3682.0,
+          "aggregate_report_stddev" : 746.47,
+          "aggregate_report_90%_line" : 2809.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 804.0,
+          "aggregate_report_bandwidth" : 81.5,
+          "aggregate_report_median" : 1707.0,
+          "aggregate_report_count" : 17.0
+        }
+      }, {
+        "label" : "005_H?c li?u",
+        "metrics" : {
+          "average" : 1570.0,
+          "aggregate_report_max" : 4092.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 3374.0,
+          "aggregate_report_99%_line" : 4092.0,
+          "aggregate_report_stddev" : 1178.52,
+          "aggregate_report_90%_line" : 3315.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 582.0,
+          "aggregate_report_bandwidth" : 1.5,
+          "aggregate_report_median" : 964.0,
+          "aggregate_report_count" : 17.0
+        }
+      }, {
+        "label" : "003_Submit",
+        "metrics" : {
+          "average" : 508.0,
+          "aggregate_report_max" : 1352.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 1234.0,
+          "aggregate_report_99%_line" : 1352.0,
+          "aggregate_report_stddev" : 290.29,
+          "aggregate_report_90%_line" : 524.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 334.0,
+          "aggregate_report_bandwidth" : 0.1,
+          "aggregate_report_median" : 396.0,
+          "aggregate_report_count" : 17.0
+        }
+      }, {
+        "label" : "004_H?c li?u",
+        "metrics" : {
+          "average" : 1555.0,
+          "aggregate_report_max" : 2835.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 2794.0,
+          "aggregate_report_99%_line" : 2835.0,
+          "aggregate_report_stddev" : 725.68,
+          "aggregate_report_90%_line" : 2484.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 687.0,
+          "aggregate_report_bandwidth" : 1.0,
+          "aggregate_report_median" : 1388.0,
+          "aggregate_report_count" : 17.0
+        }
+      } ],
+      "total" : {
+        "label" : "TOTAL",
+        "metrics" : {
+          "average" : 2614.0,
+          "aggregate_report_max" : 12640.0,
+          "aggregate_report_rate" : 0.5,
+          "aggregate_report_95%_line" : 9414.0,
+          "aggregate_report_99%_line" : 12637.0,
+          "aggregate_report_stddev" : 2901.64,
+          "aggregate_report_90%_line" : 7954.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 334.0,
+          "aggregate_report_bandwidth" : 149.4,
+          "aggregate_report_median" : 1513.0,
+          "aggregate_report_count" : 85.0
+        }
+      }
+    },
+    "Requests_Summary.csv" : {
+      "name" : "Requests_Summary.csv",
+      "header" : [ {
+        "key" : "sampler_label",
+        "name" : "Label",
+        "index" : 0
+      }, {
+        "key" : "aggregate_report_count",
+        "name" : "#Samples",
+        "index" : 1
+      }, {
+        "key" : "average",
+        "name" : "Average [ms]",
+        "index" : 2
+      }, {
+        "key" : "aggregate_report_median",
+        "name" : "Median [ms]",
+        "index" : 3
+      }, {
+        "key" : "aggregate_report_90%_line",
+        "name" : "90% line [ms]",
+        "index" : 4
+      }, {
+        "key" : "aggregate_report_95%_line",
+        "name" : "95% line [ms]",
+        "index" : 5
+      }, {
+        "key" : "aggregate_report_99%_line",
+        "name" : "99% line [ms]",
+        "index" : 6
+      }, {
+        "key" : "aggregate_report_min",
+        "name" : "Minimum [ms]",
+        "index" : 7
+      }, {
+        "key" : "aggregate_report_max",
+        "name" : "Maximum [ms]",
+        "index" : 8
+      }, {
+        "key" : "aggregate_report_error%",
+        "name" : "Error Rate",
+        "index" : 9
+      }, {
+        "key" : "aggregate_report_rate",
+        "name" : "Rate / sec",
+        "index" : 10
+      }, {
+        "key" : "aggregate_report_bandwidth",
+        "name" : "Avg. Bandwidth [KB/s]",
+        "index" : 11
+      }, {
+        "key" : "aggregate_report_stddev",
+        "name" : "Std. Deviation",
+        "index" : 12
+      } ],
+      "data" : [ {
+        "label" : "001_H?c li?u",
+        "metrics" : {
+          "average" : 7534.0,
+          "aggregate_report_max" : 12640.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 12637.0,
+          "aggregate_report_99%_line" : 12640.0,
+          "aggregate_report_stddev" : 2859.91,
+          "aggregate_report_90%_line" : 10313.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 3153.0,
+          "aggregate_report_bandwidth" : 91.3,
+          "aggregate_report_median" : 8150.0,
+          "aggregate_report_count" : 17.0
+        }
+      }, {
+        "label" : "002_??ng nh?p | Sách M?m",
+        "metrics" : {
+          "average" : 1901.0,
+          "aggregate_report_max" : 3682.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 3102.0,
+          "aggregate_report_99%_line" : 3682.0,
+          "aggregate_report_stddev" : 746.47,
+          "aggregate_report_90%_line" : 2809.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 804.0,
+          "aggregate_report_bandwidth" : 81.5,
+          "aggregate_report_median" : 1707.0,
+          "aggregate_report_count" : 17.0
+        }
+      }, {
+        "label" : "005_H?c li?u",
+        "metrics" : {
+          "average" : 1570.0,
+          "aggregate_report_max" : 4092.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 3374.0,
+          "aggregate_report_99%_line" : 4092.0,
+          "aggregate_report_stddev" : 1178.52,
+          "aggregate_report_90%_line" : 3315.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 582.0,
+          "aggregate_report_bandwidth" : 1.5,
+          "aggregate_report_median" : 964.0,
+          "aggregate_report_count" : 17.0
+        }
+      }, {
+        "label" : "003_Submit",
+        "metrics" : {
+          "average" : 508.0,
+          "aggregate_report_max" : 1352.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 1234.0,
+          "aggregate_report_99%_line" : 1352.0,
+          "aggregate_report_stddev" : 290.29,
+          "aggregate_report_90%_line" : 524.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 334.0,
+          "aggregate_report_bandwidth" : 0.1,
+          "aggregate_report_median" : 396.0,
+          "aggregate_report_count" : 17.0
+        }
+      }, {
+        "label" : "004_H?c li?u",
+        "metrics" : {
+          "average" : 1555.0,
+          "aggregate_report_max" : 2835.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 2794.0,
+          "aggregate_report_99%_line" : 2835.0,
+          "aggregate_report_stddev" : 725.68,
+          "aggregate_report_90%_line" : 2484.0,
+          "aggregate_report_error%" : 0.0,
+          "aggregate_report_min" : 687.0,
+          "aggregate_report_bandwidth" : 1.0,
+          "aggregate_report_median" : 1388.0,
+          "aggregate_report_count" : 17.0
+        }
+      }, {
+        "label" : "006_H?c li?u",
+        "metrics" : {
+          "average" : 7305.0,
+          "aggregate_report_max" : 13753.0,
+          "aggregate_report_rate" : 0.1,
+          "aggregate_report_95%_line" : 12860.0,
+          "aggregate_report_99%_line" : 13753.0,
+          "aggregate_report_stddev" : 2665.68,
+          "aggregate_report_90%_line" : 10877.0,
+          "aggregate_report_error%" : 1.0,
+          "aggregate_report_min" : 4398.0,
+          "aggregate_report_bandwidth" : 14.5,
+          "aggregate_report_median" : 6895.0,
+          "aggregate_report_count" : 17.0
+        }
+      } ],
+      "total" : {
+        "label" : "TOTAL",
+        "metrics" : {
+          "average" : 3395.0,
+          "aggregate_report_max" : 13753.0,
+          "aggregate_report_rate" : 0.6,
+          "aggregate_report_95%_line" : 10313.0,
+          "aggregate_report_99%_line" : 12860.0,
+          "aggregate_report_stddev" : 3355.14,
+          "aggregate_report_90%_line" : 8271.0,
+          "aggregate_report_error%" : 0.16670000000000001,
+          "aggregate_report_min" : 334.0,
+          "aggregate_report_bandwidth" : 154.9,
+          "aggregate_report_median" : 1799.0,
+          "aggregate_report_count" : 102.0
+        }
+      }
+    }
+  },
+  "responseCodes" : {
+    "005_Học liệu-rc-200" : 17,
+    "002_Đăng nhập | Sách Mềm-rc-200" : 17,
+    "003_Submit-rc-200" : 17,
+    "004_Học liệu-rc-200" : 17,
+    "006_Học liệu-rc-400" : 17,
+    "001_Học liệu-rc-200" : 17
+  },
+  "criteria" : {
+    "status" : "FAIL",
+    "criteria" : [ {
+      "name" : "EXAMPLE Criterion Response < 2 sec",
+      "status" : "FAIL"
+    }, {
+      "name" : "EXAMPLE Criterion CPU < 75",
+      "status" : "PASS"
+    }, {
+      "name" : "EXAMPLE Criterion No Errors",
+      "status" : "FAIL"
+    } ]
+  },
+  "testConfiguration" : {
+    "testPlanComment" : "",
+    "threadGroups" : [ {
+      "name" : "VirtualUsers",
+      "implementation" : "DistributedConcurrencyThreadGroup",
+      "maxVirtualUsers" : 5,
+      "rampUp" : "1",
+      "duration" : "2",
+      "timeUnit" : "MINUTES"
+    } ]
+  },
+  "samplerSummaryPath" : "csv/Requests_Summary.csv"
+}
